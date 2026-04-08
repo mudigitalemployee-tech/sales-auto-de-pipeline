@@ -70,3 +70,4 @@ Runs automatically on every push to `main`:
 
 ---
 *Pipeline generated on 2026-04-08 by Ved DE Skill v2.0*
+# Auto-refresh enabled
