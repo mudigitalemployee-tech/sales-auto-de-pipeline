@@ -1,89 +1,50 @@
 {
-  "dq_score_pct": 100.0,
-  "dq_status": "PASS",
-  "passed": 10,
-  "warnings": 0,
-  "failed": 0,
-  "total_checks": 10,
+  "dq_score_pct": 88.9,
+  "dq_status": "FAIL",
   "checks": [
     {
-      "category": "Completeness",
       "column": "id",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
+      "null_pct": 0.0,
       "status": "PASS"
     },
     {
-      "category": "Completeness",
       "column": "customer",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
+      "null_pct": 0.0,
       "status": "PASS"
     },
     {
-      "category": "Completeness",
       "column": "product",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
+      "null_pct": 0.0,
       "status": "PASS"
     },
     {
-      "category": "Completeness",
       "column": "qty",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
-      "status": "PASS"
+      "null_pct": 5.555555555555555,
+      "status": "FAIL"
     },
     {
-      "category": "Completeness",
       "column": "price",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
+      "null_pct": 0.0,
       "status": "PASS"
     },
     {
-      "category": "Completeness",
       "column": "date",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
+      "null_pct": 0.0,
       "status": "PASS"
     },
     {
-      "category": "Completeness",
       "column": "email",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
+      "null_pct": 0.0,
       "status": "PASS"
     },
     {
-      "category": "Completeness",
       "column": "phone",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
+      "null_pct": 0.0,
       "status": "PASS"
     },
     {
-      "category": "Completeness",
       "column": "region",
-      "check": "Null % \u2264 5.0%",
-      "value": 0.0,
-      "threshold": 5.0,
-      "status": "PASS"
-    },
-    {
-      "category": "Uniqueness",
-      "column": "_all_",
-      "check": "Duplicate % \u2264 1.0%",
-      "value": 0.0,
-      "threshold": 1.0,
+      "null_pct": 0.0,
       "status": "PASS"
     }
   ]
