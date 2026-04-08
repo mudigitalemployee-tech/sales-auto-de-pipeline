@@ -1,6 +1,6 @@
 {
-  "dq_score_pct": 88.9,
-  "dq_status": "FAIL",
+  "dq_score_pct": 100.0,
+  "dq_status": "PASS",
   "checks": [
     {
       "column": "id",
@@ -19,8 +19,8 @@
     },
     {
       "column": "qty",
-      "null_pct": 8.695652173913043,
-      "status": "FAIL"
+      "null_pct": 2.74,
+      "status": "PASS"
     },
     {
       "column": "price",
