@@ -17,3 +17,8 @@ id,customer,product,qty,price,date,email,phone,region
 16,Cust16,ProdD,,200.0,2026-04-16,bad-email,+10000016,N
 17,Cust17,ProdE,-5.0,300.0,2026-04-17,c17@test.com,+10000017,S
 18,Cust18,ProdF,8.0,-150.0,invalid-date,c18@test.com,+10000018,E
+19,Cust19,ProdA,12.0,450.0,2026-04-19,c19@test.com,+10000019,W
+20,Cust20,ProdB,,500.0,2026-04-20,invalid-email-format,+10000020,N
+21,Cust21,ProdC,7.0,350.0,2026-04-21,c21@test.com,+10000021,S
+22,Cust22,ProdD,-3.0,275.0,2026-04-22,c22@test.com,+10000022,E
+23,Cust23,ProdE,15.0,625.0,2026-04-23,c23@test.com,+10000023,W
